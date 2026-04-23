@@ -15,8 +15,8 @@ For the hexagorgon the string is rougly this:
 
 airgiants/hexagorgon/debug/out/hexagorgon/$(NodeName)/knobs/setDrive, with nodename n1-n6.
 
-Please see attached untested python. 
-Thios should work with python 3
+Please see mqtt.py. 
+This should work with python 3
 
 pip3 install paho-mqtt
 

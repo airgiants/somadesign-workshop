@@ -9,7 +9,7 @@ This is unauthenticated.
 Each node publishes and subscribes a topic of the folling form:
 
 airgiants/$(InstallationName)/debug/out/$(CreatureName)/$(nodenumber)/knobs/setDrive
-Publishing a message with an a float integer -1.0...1.0 drives the chamber open and closed. 
+Publishing a message with an a float integer -1.0...1.0 drives the chamber with two valves open and closed sensibly. 
 
 For the hexagorgon the string is rougly this:
 

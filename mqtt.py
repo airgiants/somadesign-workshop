@@ -62,7 +62,7 @@ client.on_disconnect = on_disconnect
      if True:
         # time.sleep(1)
         # msg = f"messages: {msg_count}"
-         a = "airgiants/hexagorgon/debug/out/hexagorgon/" + node + "/knobs/setDrive"
+         a = "airgiants/squeezeme/debug/out/hexagorgon-99/n" + node + "/knobs/setDrive"
          result = client.publish(topic, msg)
          # result: [0, 1]
          status = result[0]

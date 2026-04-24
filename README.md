@@ -9,11 +9,13 @@ This is unauthenticated.
 Each node publishes and subscribes a topic of the folling form:
 
 airgiants/$(InstallationName)/debug/out/$(CreatureName)/$(nodenumber)/knobs/setDrive
+airgiants/squeezeme/debug/out/hexagorgon_99/n2/knobs/setDrive
 Publishing a message with an a float integer -1.0...1.0 drives the chamber with two valves open and closed sensibly. 
 
 For the hexagorgon the string is rougly this:
 
-airgiants/hexagorgon/debug/out/hexagorgon/$(NodeName)/knobs/setDrive, with nodename n1-n6.
+airgiants/squeezeme/debug/out/hexagorgon_99/$(NodeName)/knobs/setDrive, with nodename n1-n6.
+
 
 Please see mqtt.py. 
 This should work with python 3
